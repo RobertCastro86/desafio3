@@ -8,10 +8,8 @@ Este projeto, desenvolvido durante a quest intermediária de JavaScript do curso
 * Envio de dados para um servidor (se aplicável).
 * Mensagem de sucesso após o envio do formulário.
 
-## Demonstração
-[Link para a demonstração online]
 
 ## Instalação
 1. Clone este repositório:
    ```bash
-   git clone [[https://github.com/seu-usuario/seu-repositorio.git](https://www.google.com/search?q=https://github.com/seu-usuario/seu-repositorio.git)]([https://github.com/seu-usuario/seu-repositorio.git](https://www.google.com/search?q=https://github.com/seu-usuario/seu-repositorio.git))
+   https://github.com/RobertCastro86/desafio3.git
