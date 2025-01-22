@@ -8,6 +8,10 @@ Este projeto, desenvolvido durante a quest intermediária de JavaScript do curso
 * Envio de dados para um servidor (se aplicável).
 * Mensagem de sucesso após o envio do formulário.
 
+## Tecnologias utilizadas
+* HTML5
+* CSS3
+* JavaScript
 
 ## Instalação
 1. Clone este repositório:
