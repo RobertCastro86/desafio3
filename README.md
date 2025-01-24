@@ -1,8 +1,8 @@
 # Formulário Interativo - Quest Dev em Dobro (Nível Intermediário)
 
 <div align="center">
-  <a href="[https://github.com/RobertCastro86](https://acordeon-one.vercel.app/)">
-    <img height="300em" src="https://github.com/RobertCastro86/acordeon/blob/main/acordeon.JPG"/>
+  <a href="[https://github.com/RobertCastro86](https://desafio3-rose.vercel.app/)">
+    <img height="200em" src="formulario-img.JPG"/>
 </div>
 
 Este projeto, desenvolvido durante a quest intermediária de JavaScript do curso Dev em Dobro, tem como objetivo consolidar os conhecimentos em HTML, CSS e JavaScript através da criação de um formulário funcional e esteticamente agradável.
