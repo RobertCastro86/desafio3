@@ -6,48 +6,40 @@
   <title>Formulário Interativo - Quest Dev em Dobro (Nível Intermediário)</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="variables.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
   
 </head>
-<body class="body">
+<body>
 
-  <div class="container">
-    <div class="duvida">
-        <h2>FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</h2>
-        <br>
-        <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
-    </div>
-    <form action="#" method="post" class="formulario">
-        <input type="text" id="nome-completo" name="nome-completo" placeholder="Nome completo *">
-        <div class="campo-obrigatorio">
-            <p class="paragrafo-vermelho">campo obrigatório</p>
-        </div>
-              
-        <input type="email" id="email" name="email" placeholder="Email *">
-        <div class="campo-obrigatorio">
-            <p class="paragrafo-vermelho">campo obrigatório</p>
-        </div>
-    
-        
-        <input type="tel" id="telefone" name="telefone" placeholder="Telefone *">
-        <div class="campo-obrigatorio">
-            <p class="paragrafo-vermelho">campo obrigatório</p>
-        </div>
-           
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *"></textarea>
-        <div class="campo-obrigatorio">
-            <p class="paragrafo-vermelho">campo obrigatório</p>
-        </div>
-        <p class="campos-obrigatorios">*campos obrigatórios</p>
-            <button type="submit" class="btn-enviar">Enviar</button>
-        </form>       
-    </div>
+  <main class="container">
+        <section id="contato">
+            <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
 
-    <script src="index.js"></script>
-  
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
 
+        <div id="formulario">
+            <input class="inputDados" type="text" name="nome" id="nome" placeholder="Nome completo *">
+            <span class="campoObrigatorio">campo obrigatório</span>
+
+            <input class="inputDados" type="email" name="email" id="email" placeholder="Email *">
+            <span class="campoObrigatorio">campo obrigatório</span>
+
+            <input class="inputDados" type="tel" name="telefone" id="telefone" placeholder="Telefone *">
+            <span class="campoObrigatorio">campo obrigatório</span>
+
+            <textarea class="inputDados" name="mensagem" id="mensagem" placeholder="Mensagem *"></textarea>
+            <span class="campoObrigatorio">campo obrigatório</span>
+
+            <span class="span">*campos obrigatórios</span>
+
+            <input id="botaoEnviar" type="submit" value="Enviar">
+        </div>
+    </main>
+ <script src="index.js"></script>
 </body>
 </html>

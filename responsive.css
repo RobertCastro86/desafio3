@@ -1,0 +1,17 @@
+@media screen and (max-width: 339px) {
+  .container {
+      flex-direction: column;
+  }
+  #contato {
+      text-align: center;
+      margin: 2rem;
+      padding: 0;
+  }
+  #contato h1 {
+      margin-bottom: 1.5rem;
+  }
+
+  #formulario {
+      width: 100%;
+  }
+}

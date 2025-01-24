@@ -1,23 +1,15 @@
-//Prevenindo o envio padrão do formulário:
-document.querySelector('.btn-enviar').addEventListener('click', function (event) {
-  event.preventDefault();
-});
+const formulario = document.querySelectorAll('.inputDados')
+const mensagemCampoObrigatorio = document.querySelectorAll('.campoObrigatorio')
+const botaoEnviar = document.getElementById('botaoEnviar')
 
-//Capturando todos os campos do formulário:
-const campos = document.querySelectorAll('.formulario input, .formulario textarea');
+botaoEnviar.addEventListener('click', () => {
+    formulario.forEach((inputDeDados, indice) => {
+        if (mensagemCampoObrigatorio[indice].classList.contains('mostrar')) mensagemCampoObrigatorio[indice].classList.remove('mostrar')
 
-
-//Validando cada campo e exibindo mensagens de erro:
-let formularioValido = true;
-
-campos.forEach(campo => {
-  const mensagemErro = campo.nextElementSibling.querySelector('.paragrafo-vermelho');
-  if (campo.value.trim() === '') {
-    campo.style.border = '1px solid red';
-    mensagemErro.style.display = 'block';
-    formularioValido = false;
-  } else {
-    campo.style.border = '1px solid green';
-    mensagemErro.style.display = 'none';
-  }
+        if (!inputDeDados.value) {
+            inputDeDados.classList.add('naoValidado');
+            mensagemCampoObrigatorio[indice].classList.add('mostrar')
+        }
+        else inputDeDados.classList.add('validado')
+    });
 });

@@ -1,0 +1,16 @@
+:root {
+
+  --titulo: 2rem;
+  --fontePrincipal: 1.5rem;
+  --corFontePrincipal: #fff;
+
+  --corFonteFormulario: #000;
+  --fonteFormulario: 1.5rem;
+  --fundoFormulario: #fff;
+
+  --botao: #3CCC87;
+  --fonteBotao: #fff;
+
+  --validado: #00C22B;
+  --naoValidado: #F52E2E;
+}
